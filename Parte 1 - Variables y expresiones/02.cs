@@ -7,7 +7,7 @@ static void main() {
     int b = 20;
 
     //Apartir de aqui puede modificar el código:
-     
+      
 
     //Escriba un programa que invierta los valores de las variables,
     //Por ejemplo
