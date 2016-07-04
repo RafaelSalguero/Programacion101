@@ -44,6 +44,8 @@ Los lados 3, 3, 3 SI forman un triangulo (equilatero)
 
 
 */
-static bool EsTriangulo(int a, int b, int c) {
+static bool EsTriangulo(int a, int b, int c)
+ {
+     EsTriangulo = a + b > c || a + c > b || b + c > a;
 
-}
+ }
