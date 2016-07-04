@@ -3,10 +3,11 @@
 static void main() {
     //No modifique este codigo:
 
-    int a = 10;
-    int b = 20;
+    int a = 5;
+    int b = 2;
 
     //Apartir de aqui puede modificar el código:
+      
 
     //Escriba un programa que invierta los valores de las variables,
     //Por ejemplo
@@ -16,6 +17,13 @@ static void main() {
     //Si a = 3, y b = 4
     //al finalizar debe de quedar
     //   a = 4  y b = 3
+    int x;
+    x = a;
+    a = b;
+    b = x;
+    
+   
+ 
 }
 
 //Otro examen:
@@ -36,6 +44,12 @@ Los lados 3, 3, 3 SI forman un triangulo (equilatero)
 
 
 */
-static bool EsTriangulo(int a, int b, int c) {
-
-}
+static bool EsTriangulo(int a, int b, int c)
+ {
+     bool c1,c2,c3;
+     c1 = a + b > c;
+     c2 = a + c > b;
+     c3 = b + c > a;
+     
+     return  c1 && c2 && c3;
+ }
