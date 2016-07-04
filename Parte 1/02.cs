@@ -7,11 +7,24 @@ static void main() {
     int b = 20;
 
     //Apartir de aqui puede modificar el código:
+    
 
     //Escriba un programa que invierta los valores de las variables,
     //Por ejemplo
 
     //Si a vale 10, y b vale 20, al finalizar el programa a debe de valer 20 y b debe de valer 10
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10;
+            int b = 20;
+            a = a + 10;
+            b = b - 10;
+            
+        
+        }
+    }
 
     //Si a = 3, y b = 4
     //al finalizar debe de quedar
