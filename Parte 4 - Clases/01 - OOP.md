@@ -83,7 +83,7 @@ mas pequeñas como piezas de su funcionamiento.
 
 El código de un nivel superior no es mas o menos complicado que el de bajo nivel, simplemente esta encargado de tareas distintas 
 
-###Algunos tipos de clases
+###Tipos importantes de clases
 Aunque uno puede diseñar una clase de cualquier manera que se le ocurra y esto es válido, en la práctica
 existen diferentes patrones que son útiles para resolver una gran cantidad de problemas comunes en 
 los programas comerciales.
