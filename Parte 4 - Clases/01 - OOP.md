@@ -65,6 +65,24 @@ fueron diseñadas.
 Esto implica que en lugar de tener pocas clases que hagan muchas cosas los buenos programas estan formados de 
 muchas pequeñas clases, cada una con cierta función en el programa.
 
+###Concepto de estado
+El estado de un objeto se refiere a la información que este almacena. Se dice que un objeto no tiene estado 
+cuando no tiene información almacenada, es decir, no tiene **campos**
+
+###Concepto de bajo nivel y alto nivel
+Los programas comercales no tienen una estructura plana si no una estructura jerarquica, es decir, existen piezas
+pequeñas que realizan funciones, que en conjunto forman a otras piezas mas grandes y estas a su vez forman otras piezas
+aun mas grandes hasta lograr cumplir con el objetivo del programa.
+
+Esto nos permite a los programadores escribir grandes sistemas sin tener que pensar en todo lo que esta pasando adentro
+del mismo y en cambio poder analizar por partes su funcionamiento
+
+Se dice que una clase o funcion es de bajo nivel cuando esta encargada de tareas muy especificas, detalladas y pequeñas y 
+de alto nivel cuando una clase esta encargada de realizar tareas amplias, a mas grandes rasgos, utilizando otras clases
+mas pequeñas como piezas de su funcionamiento.
+
+El código de un nivel superior no es mas o menos complicado que el de bajo nivel, simplemente esta encargado de tareas distintas 
+
 ###Algunos tipos de clases
 Aunque uno puede diseñar una clase de cualquier manera que se le ocurra y esto es válido, en la práctica
 existen diferentes patrones que son útiles para resolver una gran cantidad de problemas comunes en 
@@ -81,3 +99,14 @@ Algunos de estos son:
     de pueden ser representadas por clases que tengan una propiedad para cada columna de las tablas
 
 - **Clases de lógica**
+    - Son clases que estan formadas principalmente de métodos y no tienen estado, estas clases son encargadas de 
+    realizar procesos o de tomar decisiones de acuerdo a la lógica de negocios establecida por los clientes. 
+
+- **Controladores**
+    - Los controladores se encuentran en los niveles mas altos de un programa y estan encargados de darles una utilidad
+    a las clases de lógica de forma que puedan ser consumidos. Los consumidores de los controladores son las interfaces de
+    usuario, o en el caso de un servidor web, los clientes del servidor.
+
+    Se puede imaginar a un controlador como el pegamento que une todas las piezas de un programa en una clase capaz
+    de realizar tareas útiles para el usuario final
+
