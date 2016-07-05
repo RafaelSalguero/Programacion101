@@ -99,7 +99,7 @@ Algunos de estos son:
     pueden ser representadas por clases que tengan una propiedad para cada columna de la misma
 
 - **Clases de lógica**
-    - Son clases que estan formadas principalmente de métodos y no tienen estado, estas clases son encargadas de 
+    - Son clases que estan formadas principalmente de métodos, estas clases son encargadas de 
     realizar procesos o de tomar decisiones de acuerdo a la lógica de negocios establecida por los clientes. 
 
     Estas clases no deben de tener estado y deben de ser sencillas y fáciles de entender para poder ser probadas con facilidad, 
