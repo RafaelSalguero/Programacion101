@@ -110,3 +110,14 @@ Algunos de estos son:
     Se puede imaginar a un controlador como el pegamento que une todas las piezas de un programa en una clase capaz
     de realizar tareas útiles para el usuario final
 
+- **Clases de estructuras de datos**
+    - Clases que ademas de almacenar información, proporcionan métodos para manipular la misma. Generalmente en los programas
+    existen pocas clases de estas pero las cuales cumplen importantes funciones que son utilizadas muchas veces debido a su propósito
+    general.
+
+    Este tipo de clases deben de ser diseñadas por programadores experimentados ya que debido a su uso extendido por el programa
+    su estructura afecta enormemente a muchas areas de un sistema.
+
+    Algunis ejemplos son las clases utilizadas para acceder a la base de datos o la clase utilizada para administrar la información
+    de la sesión de un usuario  
+
