@@ -95,8 +95,8 @@ Algunos de estos son:
     lógicamente debe de permanecer junta. Por ejemplo, la clase `Persona` se puede considerar un DTO ya que no
     tiene ninguna función mas que la de agrupar el `Nombre` y el `Apellido`.
 
-    En los programas comerciales se utilizan principalmente para el acceso a las bases de datos, ya que las tablas
-    de pueden ser representadas por clases que tengan una propiedad para cada columna de las tablas
+    En los programas comerciales se utilizan principalmente para representar la información en las bases de datos, ya que las tablas 
+    pueden ser representadas por clases que tengan una propiedad para cada columna de la misma
 
 - **Clases de lógica**
     - Son clases que estan formadas principalmente de métodos y no tienen estado, estas clases son encargadas de 
