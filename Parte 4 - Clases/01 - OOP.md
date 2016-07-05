@@ -102,6 +102,9 @@ Algunos de estos son:
     - Son clases que estan formadas principalmente de métodos y no tienen estado, estas clases son encargadas de 
     realizar procesos o de tomar decisiones de acuerdo a la lógica de negocios establecida por los clientes. 
 
+    Estas clases no deben de tener estado y deben de ser sencillas y fáciles de entender para poder ser probadas con facilidad, 
+    ya que generalmente los errores de los programas se deben a equivocaciones de los programadores en este tipo de clases.
+
 - **Controladores**
     - Los controladores se encuentran en los niveles mas altos de un programa y estan encargados de darles una utilidad
     a las clases de lógica de forma que puedan ser consumidos. Los consumidores de los controladores son las interfaces de
