@@ -9,7 +9,6 @@ Si tipo no es ni "rectangulo" ni "triangulo", debe de devolver -1
 **/
 static int area(string tipo, int b, int a) 
 {
-
     if (tipo = "triangulo")
         {
             area = (b * a)/2;

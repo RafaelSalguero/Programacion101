@@ -70,7 +70,7 @@ El estado de un objeto se refiere a la información que este almacena. Se dice q
 cuando no tiene información almacenada, es decir, no tiene **campos**
 
 ###Concepto de bajo nivel y alto nivel
-Los programas comercales no tienen una estructura plana si no una estructura jerarquica, es decir, existen piezas
+Los programas comerciales no tienen una estructura plana si no una estructura jerarquica, es decir, existen piezas
 pequeñas que realizan funciones, que en conjunto forman a otras piezas mas grandes y estas a su vez forman otras piezas
 aun mas grandes hasta lograr cumplir con el objetivo del programa.
 
@@ -83,7 +83,7 @@ mas pequeñas como piezas de su funcionamiento.
 
 El código de un nivel superior no es mas o menos complicado que el de bajo nivel, simplemente esta encargado de tareas distintas 
 
-###Tipos importantes de clases
+###Algunos tipos de clases
 Aunque uno puede diseñar una clase de cualquier manera que se le ocurra y esto es válido, en la práctica
 existen diferentes patrones que son útiles para resolver una gran cantidad de problemas comunes en 
 los programas comerciales.
@@ -95,15 +95,12 @@ Algunos de estos son:
     lógicamente debe de permanecer junta. Por ejemplo, la clase `Persona` se puede considerar un DTO ya que no
     tiene ninguna función mas que la de agrupar el `Nombre` y el `Apellido`.
 
-    En los programas comerciales se utilizan principalmente para representar la información en las bases de datos, ya que las tablas 
-    pueden ser representadas por clases que tengan una propiedad para cada columna de la misma
+    En los programas comerciales se utilizan principalmente para el acceso a las bases de datos, ya que las tablas
+    de pueden ser representadas por clases que tengan una propiedad para cada columna de las tablas
 
 - **Clases de lógica**
-    - Son clases que estan formadas principalmente de métodos, estas clases son encargadas de 
+    - Son clases que estan formadas principalmente de métodos y no tienen estado, estas clases son encargadas de 
     realizar procesos o de tomar decisiones de acuerdo a la lógica de negocios establecida por los clientes. 
-
-    Estas clases no deben de tener estado y deben de ser sencillas y fáciles de entender para poder ser probadas con facilidad, 
-    ya que generalmente los errores de los programas se deben a equivocaciones de los programadores en este tipo de clases.
 
 - **Controladores**
     - Los controladores se encuentran en los niveles mas altos de un programa y estan encargados de darles una utilidad
@@ -112,15 +109,4 @@ Algunos de estos son:
 
     Se puede imaginar a un controlador como el pegamento que une todas las piezas de un programa en una clase capaz
     de realizar tareas útiles para el usuario final
-
-- **Clases de estructuras de datos**
-    - Clases que ademas de almacenar información, proporcionan métodos para manipular la misma. Generalmente en los programas
-    existen pocas clases de estas pero las cuales cumplen importantes funciones que son utilizadas muchas veces debido a su propósito
-    general.
-
-    Este tipo de clases deben de ser diseñadas por programadores experimentados ya que debido a su uso extendido por el programa
-    su estructura afecta enormemente a muchas areas de un sistema.
-
-    Algunis ejemplos son las clases utilizadas para acceder a la base de datos o la clase utilizada para administrar la información
-    de la sesión de un usuario  
 
