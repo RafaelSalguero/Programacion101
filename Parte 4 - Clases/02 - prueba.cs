@@ -71,9 +71,18 @@ Escriba un metodo para obtener el promedio de calificaciones de un alumno
 @param calificaciones Un arreglo con todas las calificaciones de todos los alumnos y materias
 @param alumno El alumno del cual nos interesa saber su promedio
 */
-decimal PromedioPorAlumno(Calificacion[] calificaciones, Alumno alumno) {
-
-}
+decimal PromedioPorAlumno(Calificacion[] calificaciones, Alumno alumno)
+{
+    /*sumacalificaciones / numerodecalificaciones*/
+    
+    int cont;
+    foreach (calificacion a in calificaciones)
+    {
+        suma = suma + a.valor;
+        cont = cont + a.materia.lenght:
+        return suma/cont;
+    }   
+}    
 
 /*
 Escriba un metodo para obtener el promedio de calificaciones de un alumno para cierta materia
