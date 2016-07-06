@@ -34,8 +34,14 @@ class Calificacion {
 
 
 /**Escriba un metodo para obtener el promedio de toda la escuela */
-decimal PromedioGeneral(Calificacion[] calificaciones) {
-
+decimal PromedioGeneral(Calificacion[] calificaciones) 
+{
+   decimal sum;
+   foreach (Calificacion c in calificaciones)
+   {
+       sum = sum + c.Valor;
+   }
+   return sum / calificaciones.Length;
 }
 
 /*Escriba un metodo que sirve para obtener el promedio de calificaciones por materia.
@@ -45,8 +51,19 @@ Recuerde que podemos saber si dos variables apuntan al mismo objeto utilizando e
 @param calificaciones Un arreglo con todas las calificaciones de todos los alumnos y materias
 @param materia La materia de la cual nos interesa saber su promedio
 */
-decimal PromedioPorMateria(Calificacion[] calificaciones, Materia materia) {
-
+decimal PromedioPorMateria(Calificacion[] calificaciones, Materia materia)
+{
+    int a;
+    float sum
+    foreach (calificacion c in calificaciones)
+    {
+        if (c.materia == materia)
+        {
+        a = a + 1;
+        sum= sum + c.valor;
+        }
+    }
+    return sum / a;
 }
 
 /*
