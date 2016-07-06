@@ -81,6 +81,7 @@ decimal PromedioPorAlumno(Calificacion[] calificaciones, Alumno alumno)
         suma = suma + a.valor;
         cont = cont + a.materia.lenght:
         return suma/cont;
+        
     }   
 }    
 
