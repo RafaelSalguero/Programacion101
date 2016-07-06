@@ -73,16 +73,17 @@ Escriba un metodo para obtener el promedio de calificaciones de un alumno
 */
 decimal PromedioPorAlumno(Calificacion[] calificaciones, Alumno alumno)
 {
-    /*sumacalificaciones / numerodecalificaciones*/
-    
-    int cont;
-    foreach (calificacion a in calificaciones)
+    float ca
+    int sum;
+    foreach (calificacion c in calificaciones)
     {
-        suma = suma + a.valor;
-        cont = cont + a.materia.lenght:
-        return suma/cont;
-        
-    }   
+        if (c.alumno == alumno)
+        {
+           sum= sum + c.materia;
+           ca = ca + c.valor;
+        }
+    }
+    return ca /sum;
 }    
 
 /*
