@@ -79,7 +79,7 @@ decimal PromedioPorAlumno(Calificacion[] calificaciones, Alumno alumno)
     {
         if (c.alumno == alumno)
         {
-           sum= sum + c.materia;
+           sum= sum + 1;
            ca = ca + c.valor;
         }
     }
@@ -92,7 +92,20 @@ Escriba un metodo para obtener el promedio de calificaciones de un alumno para c
 @param alumno El alumno del cual nos interesa saber su promedio
 @param materia La materia de la cual nos interesa saber el promedio
 */
-decimal PromedioPorAlumnoMateria(Calificacion[] calificaciones, Alumno alumno, Materia materia) {
+decimal PromedioPorAlumnoMateria(Calificacion[] calificaciones, Alumno alumno, Materia materia)
+{
+    float ca
+    int sum;
+    foreach (calificacion c in calificaciones)
+    {
+        if (c.alumno == alumno && c.materia == materia )
+        {
+           sum= sum + 1;
+           ca = ca + c.valor;
+        }
+    }
+    return ca /sum;
+}    
 
 }
 
