@@ -92,14 +92,14 @@ Calificaciones[] calificaciones = new Calificaciones[] {
     new Calificacion(jose, español, 8),
 
     //alan tiene 8.33 de promedio en matematicas
-    new Calificacion(jose, matematicas, 7),
-    new Calificacion(jose, matematicas, 8),
-    new Calificacion(jose, matematicas, 10),    
+    new Calificacion(alan, matematicas, 7),
+    new Calificacion(alan, matematicas, 8),
+    new Calificacion(alan, matematicas, 10),    
 
     //alan tiene 9.33 de promedio en español
-    new Calificacion(jose, español, 9),
-    new Calificacion(jose, español, 9),
-    new Calificacion(jose, español, 10)
+    new Calificacion(alan, español, 9),
+    new Calificacion(alan, español, 9),
+    new Calificacion(alan, español, 10)
 
     //jose en general tiene 7.83 de promedio
     //alan en general tiene 8,83 de promedio
